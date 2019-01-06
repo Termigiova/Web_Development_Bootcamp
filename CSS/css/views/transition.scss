@@ -1,0 +1,37 @@
+.box {
+    background: #9b59b6;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+    
+    //&:hover {
+    //    background: #e74c3c;
+    //    transform-origin: top left;
+    //    transform: scale(2);
+    //    border-radius: 50px;
+    //}
+    
+    &:hover {
+        transform: translateX(300px);
+        background-color: teal;
+    }
+}
+
+.animated {
+    //transition-duration: 5s, 1s;
+    //transition-property: background, border-radius;
+    //transition-delay: 1s, 0.5s;
+    
+    // Short version
+    transition: transform 2s ease-in 1s,
+                background-color 0.5s linear;
+    // Large version
+    //transition-property: transform;
+    //transition-duration: 2s;
+    //transition-timing-function: ease-in;
+    //transition-delay: 1s;
+}
