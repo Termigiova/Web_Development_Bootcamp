@@ -8,7 +8,7 @@ html {
     font: normal 16px sans-serif;
     color: #555;
     
-    ul {
+    ul, nav {
         list-style: none;
     }
     
@@ -34,5 +34,41 @@ html {
         flex-direction: column;
         align-items: center;
         padding: 100px 80px;
+        
+        h3.title {
+            text-transform: capitalize;
+            font: bold 32px "Open Sans", sans-serif;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        p {
+            max-width: 775px;
+            line-height: 2;
+            padding: 0 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        &:not(.hero):nth-child(even) {
+            background-color: #f5f5f5;
+        }
     }
+    
+    .grid {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    hr {
+        width: 250px;
+        height: 3px;
+        background-color: #3f51b5;
+        border: 0;
+        margin-bottom: 50px;
+    }
+    
+    
 }

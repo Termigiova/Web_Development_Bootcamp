@@ -1,0 +1,12 @@
+.destinations {
+    .grid li {
+        height: 350px;
+        padding: 20px;
+        background-clip: content-box;
+        background-size: cover;
+        background-position: center;
+        
+        &.small { flex-basis: 30%; }
+        &.large { flex-basis: 70%; }
+    }
+}
