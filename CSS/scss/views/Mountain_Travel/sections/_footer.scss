@@ -19,3 +19,18 @@ footer {
         align-self: center;
     }
 }
+
+@media (max-width: 800px) {
+    footer {
+        flex-direction: column;
+        
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        ul li {
+            margin: 0 8px;
+        }
+    }
+}

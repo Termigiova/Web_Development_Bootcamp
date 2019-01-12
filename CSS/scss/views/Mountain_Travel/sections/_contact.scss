@@ -19,3 +19,12 @@
         }
     }
 }
+
+@media (max-width: 1000px) {
+    .contact form {
+        input, a {
+            flex-basis: 100%;
+            margin: 0 0 20px;
+        }
+    }
+}

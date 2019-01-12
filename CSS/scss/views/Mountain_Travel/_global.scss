@@ -70,5 +70,10 @@ html {
         margin-bottom: 50px;
     }
     
-    
+}
+
+@media (max-width: 800px) {
+    section {
+        padding: 50px 20px;
+    }
 }

@@ -10,3 +10,15 @@
         &.large { flex-basis: 70%; }
     }
 }
+
+@media (max-width: 1100px) {
+    .destinations .grid li {
+        &.small, &.large { flex-basis: 50%; }
+    }
+}
+
+@media (max-width: 800px) {
+    .destinations .grid li {
+        &.small, &.large { flex-basis: 100%; }
+    }
+}

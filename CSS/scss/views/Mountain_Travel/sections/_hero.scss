@@ -43,3 +43,13 @@
         margin: 0;
     }
 }
+
+@media (max-width: 800px) {
+    .hero {
+        min-height: 600px;
+        
+        h1 { font-size: 48px; }
+        h3 { font-size: 24px; }
+        a.btn { padding: 15px 40px; }
+    }
+}
